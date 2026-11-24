@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
+    border: 6px solid firebrick;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+}
+
+.weather-forecast-container {
+    background-color: peachpuff;
+    border-radius: 9px;
+    padding: 10px;
+}
+
+h1, h2 {
+    text-shadow: 1px 1px 2px firebrick;
+    font-size: 2rem;
+}
+
+p {
+    text-shadow: 0.5px 0.5px 1px firebrick;
+    font-size: 1.1em;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background-color: firebrick;
+    color: #fff;
+    font-weight: 600;
+}
+
+button:hover {
+    transform:scale(105%);
+    background-color: #fff;
+    color: firebrick;
+    font-weight: 600;
+}
+
